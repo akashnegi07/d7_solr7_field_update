@@ -18,3 +18,4 @@ while($record = $result->fetchAssoc()) {
     field_update_field($field);
   }
 }
+var_dump("Update Done");
